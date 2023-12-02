@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-container {
+    background-color: #11538C;
+    text-align: center;
+    height: 90px;
+    margin-top: 10px;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: solid 1px white;
+    height: 45px; /* Ajustado para acomodar a imagem e o contorno */
+    margin-right: 20px; /* Espaço entre as opções do menu */
+    margin-top: 5px;
+    
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.imgprogramacao {
+    height: 55px; /* Ajuste conforme necessário */
+    width: 65px; /* Ajuste conforme necessário */
+}
+
+.imgprogramacao2 {
+    height: 140px; /* Ajuste conforme necessário */
+    width: 250px; /* Ajuste conforme necessário */
+}
+
+.icone {
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: inline;
+}
+
+.container-busca {
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;
+}
+
+.form-busca {
+    height: 40px;
+    align-self: center;
+    text-align: center;
+    width: 10%;
+}
+
+.data {
+    height: 25px;
+    align-self: center;
+    width: 100px;
+}
+
+.botao {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #45a049;
+}
+
+.botao-box {
+    align-self: center;
+}
+
+.consumo {
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.cima {
+    display: flex;
+    flex-direction: row;
+}
+
+.a {
+    height: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.contact-us {
+    position: absolute;
+    left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid hsl(0, 0%, 80%);
+    padding: 20px;
+    width: 200px;
+    margin-top: 200px;
+}
+
+.contact-link img {
+    max-width: 45px;
+}

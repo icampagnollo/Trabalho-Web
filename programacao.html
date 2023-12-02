@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="programacao.css">
+    <script src="fornecedores.js" defer></script>
+    <title>Programação</title>
+    
+</head>
+<body>
+
+    <div class="navbar-container">
+        <nav>
+            <a href="fornecedores.html" class="nav-link">
+                <img class="imgprogramacao"   src="imagens/garfoefaca.png" alt="Programação">
+                
+            </a>
+            <a href="relatorios.html" class="nav-link">
+                <img class="imgprogramacao"   src="imagens/blocodenotas.png" alt="Programação">
+                
+            </a>
+            <a href="programacao.html" class="nav-link">
+                <img class="imgprogramacao"   src="imagens/agenda.png" alt="Programação">
+                
+            </a>
+            <a href="consumo.html" class="nav-link">
+                <img class="imgprogramacao"   src="imagens/grafico.png" alt="Programação">
+                
+            </a>
+            
+        </nav>
+    </div>
+
+
+    <figure class="nav-item">
+        <div class="img-container">
+            <img class="imgprogramacao2" src="imagens/agenda.png" alt="Programação">
+            <figcaption>PROGRAMAÇÃO</figcaption>
+        </div>
+    </figure>
+
+    <div class="center-container">
+        <div class="menu">
+            <label for="fornecedorSelect">Selecione um fornecedor:</label>
+            <select id="fornecedorSelect">
+                <option value="fornecedor1">Fornecedor 1</option>
+                <option value="fornecedor2">Fornecedor 2</option>
+                <!-- Adicione mais opções conforme necessário -->
+            </select>
+            
+            <label for="obraSelect">Selecione a obra:</label>
+            <select id="obraSelect">
+                <option value="obra1">Obra 1</option>
+                <option value="obra2">Obra 2</option>
+            </select>
+            
+            <fieldset>
+                <legend>Selecione a refeição:</legend>
+                <label>
+                    <input type="radio" name="refeicao" value="opcao1"> Opção 1
+                </label>
+                <label>
+                    <input type="radio" name="refeicao" value="opcao2"> Opção 2
+                </label>
+                <label>
+                    <input type="radio" name="refeicao" value="opcao3"> Opção 3
+                </label>
+            </fieldset>
+    
+            <div class="calendario-container">
+                <label for="dataFornecimento">Data da refeição:</label>
+                <input type="date" id="dataFornecimento" name="dataFornecimento">
+            </div>
+    
+            <!-- Nova opção: Horário de Abertura -->
+            <div class="horario-container">
+                <label for="horaAbertura">Horário de Abertura:</label>
+                <input type="time" id="horaAbertura" name="horaAbertura">
+            </div>
+    
+            <!-- Nova opção: Horário de Fechamento -->
+            <div class="horario-container">
+                <label for="horaFechamento">Horário de Fechamento:</label>
+                <input type="time" id="horaFechamento" name="horaFechamento">
+            </div>
+    
+            <div class="botao">
+                <button type="submit" id="enviarButton">Limpar</button>
+            </div>
+    
+        </div>
+        <div class="botao2">
+            <button>Enviar</button>
+        </div>
+        <div class="info-box" id="infoBox">
+            <p>Informações sobre fornecedores aparecerão aqui.</p>
+        </div>
+    </div>
+    
+    
+
+</body>
+</html>

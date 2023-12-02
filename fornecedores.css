@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container {
+    background-color: #11538C;
+    text-align: center;
+    height: 90px;
+    margin-top: 10px;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: solid 1px white;
+    height: 45px; /* Ajustado para acomodar a imagem e o contorno */
+    margin-right: 20px; /* Espaço entre as opções do menu */
+    margin-top: 5px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.imgprogramacao {
+    height: 55px; /* Ajuste conforme necessário */
+    width: 65px; /* Ajuste conforme necessário */
+
+}
+.imgprogramacao2 {
+    height: 150px; /* Ajuste conforme necessário */
+    width: 150px; /* Ajuste conforme necessário */
+    
+}
+
+
+.center-container {
+    width: 65%;
+    height: 45%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Centraliza o conteúdo dentro do contêiner */
+}
+
+.menu {
+    display: flex;
+    flex-direction: row; /* Alterado para linha para posicionar opções lado a lado */
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+
+.menu label,
+.menu select,
+.menu input {
+    margin: 10px; /* Espaçamento entre as opções */
+}
+
+.menu button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #45a049;
+}
+
+
+
+.botao2 {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo na direção principal, que é horizontal por padrão */
+    align-items: center; /* Centraliza o conteúdo na direção secundária, que é vertical por padrão */
+    margin-top: 20px; /* Adicione margem superior conforme necessário */
+}
+
+.botao2 button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Remova a propriedade display: flex; pois não é necessário para o botão */
+}
+.botao2 button:hover {
+    background-color: #45a049;
+}
+
+.img-container {
+    text-align: center; /* Centraliza o conteúdo (imagem e texto) */
+    margin-right: 1600px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+figcaption {
+    margin-top: 10px; /* Adiciona espaço entre a imagem e o texto */
+}
+
+
+.calendario-container {
+    text-align: center;
+    margin: 20px; /* Adicione margem conforme necessário */
+}
+
+label {
+    display: block; /* Garante que o texto apareça em uma nova linha */
+    margin-bottom: 10px; /* Adiciona espaço entre o texto e o campo de data */
+}
+
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-appearance: textfield; /* Exibe o campo como um campo de texto */
+    appearance: textfield; /* Exibe o campo como um campo de texto */
+}
+
+/* Adiciona estilo ao ícone para melhorar a aparência */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: none;
+    margin-left: -28px; /* Ajuste conforme necessário para alinhar o ícone */
+    cursor: pointer;
+    background-image: url('path/to/calendar-icon.png'); /* Substitua pelo caminho do seu ícone de calendário */
+    background-size: cover;
+}
+
+/* Adiciona estilo ao ícone para navegadores que não suportam o seletor acima */
+input[type="date"]::before {
+    content: '\1F4C5'; /* Unicode para um ícone de calendário (pode ajustar conforme necessário) */
+    margin-right: 5px;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Ajuste o estilo conforme necessário */
+.info-box {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.info-box p {
+    margin: 0;
+}

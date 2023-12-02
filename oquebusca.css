@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em; /* Ajuste o tamanho conforme necessário */
+    text-align: center;
+    margin-bottom: 10px; /* Ajuste a margem conforme necessário */
+}
+
+.ola {
+    display: block;
+    font-size: 1.5em; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 5px; /* Ajuste a margem conforme necessário */
+}
+
+nav.nomes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgprogramacao{
+    margin-top: 160px;
+    
+
+}
+
+.nav-item {
+    margin: 10px; /* Ajuste a margem conforme necessário */
+    text-align: center;
+}
+
+.nav-link img {
+    width: 350px; /* Ajuste a largura conforme necessário */
+    margin-right: 60px;
+    height: auto; /* Mantenha a proporção */
+}
+
+figcaption {
+    margin-top: 5px; /* Ajuste a margem conforme necessário */
+    font-size: 2em;    
+}
+
+
+.contact-us {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+   
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Alteração para 'column' */
+    align-items: center;
+    text-align: center; /* Centraliza o texto dentro da div */
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 200px;
+}
+
+h2 {
+    margin-bottom: 10px; /* Adiciona espaçamento entre o texto e as imagens */
+}
+
+.h2 {
+    
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+    color: bla;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact-link {
+    margin-top: 10px; /* Adiciona espaçamento entre as imagens */
+    margin-right: 15px;
+    
+}
+
+.contact-link img {
+    max-width: 45px;
+}
+.image-container img {
+    max-width: 220px; /* Ajuste o tamanho conforme necessário */
+}
+.image-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    margin-right: 10px;
+}
